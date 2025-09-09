@@ -5,6 +5,7 @@ public class FirstPersonMovement : MonoBehaviour
 {
     public float speed = 12f;
     public float gravity = -9.81f;
+    public float jump_height = 3f;
 
     public CharacterController controller;
     public Transform ground_check;
@@ -20,12 +21,12 @@ public class FirstPersonMovement : MonoBehaviour
     {
         move_action = InputSystem.actions.FindAction("Move");
         jump_action = InputSystem.actions.FindAction("Jump");
+        jump_action.performed += Jump;
     }
 
     void Update()
     {
         grounded = Physics.CheckSphere(ground_check.position, ground_distance, ground_mask);
-        print(grounded);
 
         if (grounded && velocity.y < 0)
         {
@@ -42,5 +43,13 @@ public class FirstPersonMovement : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
 
         controller.Move(velocity * Time.deltaTime);
+    }
+
+    void Jump(InputAction.CallbackContext context)
+    {
+        if (grounded)
+        {
+            velocity.y = Mathf.Sqrt(jump_height * -2f * gravity);
+        }
     }
 }
