@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\drews\\OneDrive\\Documents\\Unity Projects\\MAGD372-FA25\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{51E7A6D8-F35D-72A3-25BA-7E0A088135EC}|Assembly-CSharp.csproj|c:\\users\\drews\\onedrive\\documents\\unity projects\\magd372-fa25\\assets\\objects\\basic player\\firstpersonmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51E7A6D8-F35D-72A3-25BA-7E0A088135EC}|Assembly-CSharp.csproj|solutionrelative:assets\\objects\\basic player\\firstpersonmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{51E7A6D8-F35D-72A3-25BA-7E0A088135EC}|Assembly-CSharp.csproj|c:\\users\\drews\\onedrive\\documents\\unity projects\\magd372-fa25\\assets\\objects\\basic player\\firstpersoncamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51E7A6D8-F35D-72A3-25BA-7E0A088135EC}|Assembly-CSharp.csproj|solutionrelative:assets\\objects\\basic player\\firstpersoncamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -23,12 +27,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FirstPersonMovement.cs",
+              "DocumentMoniker": "C:\\Users\\drews\\OneDrive\\Documents\\Unity Projects\\MAGD372-FA25\\Assets\\Objects\\Basic Player\\FirstPersonMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Objects\\Basic Player\\FirstPersonMovement.cs",
+              "ToolTip": "C:\\Users\\drews\\OneDrive\\Documents\\Unity Projects\\MAGD372-FA25\\Assets\\Objects\\Basic Player\\FirstPersonMovement.cs",
+              "RelativeToolTip": "Assets\\Objects\\Basic Player\\FirstPersonMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T19:50:41.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "FirstPersonCamera.cs",
               "DocumentMoniker": "C:\\Users\\drews\\OneDrive\\Documents\\Unity Projects\\MAGD372-FA25\\Assets\\Objects\\Basic Player\\FirstPersonCamera.cs",
               "RelativeDocumentMoniker": "Assets\\Objects\\Basic Player\\FirstPersonCamera.cs",
               "ToolTip": "C:\\Users\\drews\\OneDrive\\Documents\\Unity Projects\\MAGD372-FA25\\Assets\\Objects\\Basic Player\\FirstPersonCamera.cs",
               "RelativeToolTip": "Assets\\Objects\\Basic Player\\FirstPersonCamera.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-09T19:36:40.037Z",
               "EditorCaption": ""
