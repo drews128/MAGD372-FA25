@@ -7368,12 +7368,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   speed: 12
   gravity: -9.81
+  jump_height: 3
   controller: {fileID: 434403613}
   ground_check: {fileID: 1659158909}
   ground_distance: 0.4
   ground_mask:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 8
 --- !u!1 &544719700
 GameObject:
   m_ObjectHideFlags: 0
