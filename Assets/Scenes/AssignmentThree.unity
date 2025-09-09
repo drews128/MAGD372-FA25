@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 87473148}
   - component: {fileID: 87473147}
   - component: {fileID: 87473146}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -839,7 +839,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 192334225}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -927,7 +927,7 @@ GameObject:
   - component: {fileID: 215636511}
   - component: {fileID: 215636510}
   - component: {fileID: 215636509}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -970,7 +970,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1875920202}
+  m_Mesh: {fileID: 1478064363}
 --- !u!33 &215636510
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -4584,7 +4584,7 @@ GameObject:
   - component: {fileID: 270805800}
   - component: {fileID: 270805799}
   - component: {fileID: 270805798}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stairs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5967,6 +5967,7 @@ GameObject:
   - component: {fileID: 349514507}
   - component: {fileID: 349514506}
   - component: {fileID: 349514509}
+  - component: {fileID: 349514510}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -6092,6 +6093,20 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!114 &349514510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349514505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c0503016851b464a99e6cb67c4d2c49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  mouse_sens: 100
+  player_body: {fileID: 434403614}
 --- !u!43 &355271257
 Mesh:
   m_ObjectHideFlags: 0
@@ -6284,7 +6299,7 @@ GameObject:
   - component: {fileID: 374091485}
   - component: {fileID: 374091484}
   - component: {fileID: 374091483}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7288,6 +7303,7 @@ GameObject:
   m_Component:
   - component: {fileID: 434403614}
   - component: {fileID: 434403613}
+  - component: {fileID: 434403615}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -7316,7 +7332,7 @@ CharacterController:
   m_Height: 2
   m_Radius: 0.5
   m_SlopeLimit: 45
-  m_StepOffset: 0.3
+  m_StepOffset: 0.5
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
@@ -7335,8 +7351,29 @@ Transform:
   m_Children:
   - {fileID: 349514508}
   - {fileID: 1705588284}
+  - {fileID: 1659158909}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &434403615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434403612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 231570f1d221a74478e782719e0c98eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  speed: 12
+  gravity: -9.81
+  controller: {fileID: 434403613}
+  ground_check: {fileID: 1659158909}
+  ground_distance: 0.4
+  ground_mask:
+    serializedVersion: 2
+    m_Bits: 1
 --- !u!1 &544719700
 GameObject:
   m_ObjectHideFlags: 0
@@ -7348,7 +7385,7 @@ GameObject:
   - component: {fileID: 544719701}
   - component: {fileID: 544719703}
   - component: {fileID: 544719702}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Terrain_0_0_1d3e1d24-bd7a-4162-957e-496378f82690
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7439,7 +7476,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 584073350}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pillar (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7477,7 +7514,7 @@ GameObject:
   - component: {fileID: 642850423}
   - component: {fileID: 642850422}
   - component: {fileID: 642850421}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stairs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8679,7 +8716,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 660538459}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pillar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9246,7 +9283,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1114440084}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Building
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9464,7 +9501,7 @@ GameObject:
   - component: {fileID: 1149591986}
   - component: {fileID: 1149591985}
   - component: {fileID: 1149591984}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9507,7 +9544,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1815536325}
+  m_Mesh: {fileID: 292821712}
 --- !u!33 &1149591985
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -10650,7 +10687,7 @@ GameObject:
   - component: {fileID: 1303891300}
   - component: {fileID: 1303891299}
   - component: {fileID: 1303891298}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cylinder (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11658,7 +11695,7 @@ GameObject:
   - component: {fileID: 1341703483}
   - component: {fileID: 1341703482}
   - component: {fileID: 1341703481}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Prism
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11976,7 +12013,7 @@ GameObject:
   - component: {fileID: 1400649206}
   - component: {fileID: 1400649205}
   - component: {fileID: 1400649204}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Prism (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12019,7 +12056,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 867576751}
+  m_Mesh: {fileID: 1578687973}
 --- !u!33 &1400649205
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -12599,7 +12636,7 @@ GameObject:
   - component: {fileID: 1525350160}
   - component: {fileID: 1525350159}
   - component: {fileID: 1525350158}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stairs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16233,7 +16270,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1532835716}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Building (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16273,7 +16310,7 @@ GameObject:
   - component: {fileID: 1574814140}
   - component: {fileID: 1574814139}
   - component: {fileID: 1574814138}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16970,6 +17007,37 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1 &1659158908
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1659158909}
+  m_Layer: 0
+  m_Name: GroundCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1659158909
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659158908}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 434403614}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1666221940
 GameObject:
   m_ObjectHideFlags: 0
@@ -16984,7 +17052,7 @@ GameObject:
   - component: {fileID: 1666221944}
   - component: {fileID: 1666221943}
   - component: {fileID: 1666221942}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Prism (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17299,7 +17367,6 @@ GameObject:
   - component: {fileID: 1705588284}
   - component: {fileID: 1705588287}
   - component: {fileID: 1705588286}
-  - component: {fileID: 1705588285}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -17322,29 +17389,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 434403614}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &1705588285
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1705588283}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1705588286
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17415,7 +17459,7 @@ GameObject:
   - component: {fileID: 1792563327}
   - component: {fileID: 1792563326}
   - component: {fileID: 1792563325}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cylinder (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17458,7 +17502,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 355271257}
+  m_Mesh: {fileID: 1148120884}
 --- !u!33 &1792563326
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -18423,7 +18467,7 @@ GameObject:
   - component: {fileID: 1808685340}
   - component: {fileID: 1808685339}
   - component: {fileID: 1808685338}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22080,7 +22124,7 @@ GameObject:
   - component: {fileID: 1812996442}
   - component: {fileID: 1812996441}
   - component: {fileID: 1812996440}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stairs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22123,7 +22167,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1019748721}
+  m_Mesh: {fileID: 1954496196}
 --- !u!33 &1812996441
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -23287,7 +23331,7 @@ GameObject:
   - component: {fileID: 1822593003}
   - component: {fileID: 1822593002}
   - component: {fileID: 1822593001}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Prism
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23330,7 +23374,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 644169176}
+  m_Mesh: {fileID: 1592872159}
 --- !u!33 &1822593002
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -23961,7 +24005,7 @@ GameObject:
   - component: {fileID: 2057441518}
   - component: {fileID: 2057441517}
   - component: {fileID: 2057441516}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stairs (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24004,7 +24048,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 136510362}
+  m_Mesh: {fileID: 183338093}
 --- !u!33 &2057441517
 MeshFilter:
   m_ObjectHideFlags: 10
