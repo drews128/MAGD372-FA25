@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\drews\\OneDrive\\Documents\\Unity Projects\\MAGD372-FA25\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{51E7A6D8-F35D-72A3-25BA-7E0A088135EC}|Assembly-CSharp.csproj|c:\\users\\drews\\onedrive\\documents\\unity projects\\magd372-fa25\\assets\\objects\\basic player\\firstpersonmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51E7A6D8-F35D-72A3-25BA-7E0A088135EC}|Assembly-CSharp.csproj|solutionrelative:assets\\objects\\basic player\\firstpersonmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51E7A6D8-F35D-72A3-25BA-7E0A088135EC}|Assembly-CSharp.csproj|c:\\users\\drews\\onedrive\\documents\\unity projects\\magd372-fa25\\assets\\objects\\event test\\changesizeonevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51E7A6D8-F35D-72A3-25BA-7E0A088135EC}|Assembly-CSharp.csproj|solutionrelative:assets\\objects\\event test\\changesizeonevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51E7A6D8-F35D-72A3-25BA-7E0A088135EC}|Assembly-CSharp.csproj|c:\\users\\drews\\onedrive\\documents\\unity projects\\magd372-fa25\\assets\\objects\\basic player\\firstpersoncamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51E7A6D8-F35D-72A3-25BA-7E0A088135EC}|Assembly-CSharp.csproj|solutionrelative:assets\\objects\\basic player\\firstpersoncamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51E7A6D8-F35D-72A3-25BA-7E0A088135EC}|Assembly-CSharp.csproj|C:\\Users\\drews\\OneDrive\\Documents\\Unity Projects\\MAGD372-FA25\\assets\\objects\\event test\\teleportonevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51E7A6D8-F35D-72A3-25BA-7E0A088135EC}|Assembly-CSharp.csproj|solutionrelative:assets\\objects\\event test\\teleportonevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51E7A6D8-F35D-72A3-25BA-7E0A088135EC}|Assembly-CSharp.csproj|c:\\users\\drews\\onedrive\\documents\\unity projects\\magd372-fa25\\assets\\objects\\event test\\eventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51E7A6D8-F35D-72A3-25BA-7E0A088135EC}|Assembly-CSharp.csproj|solutionrelative:assets\\objects\\event test\\eventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +31,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FirstPersonMovement.cs",
-              "DocumentMoniker": "C:\\Users\\drews\\OneDrive\\Documents\\Unity Projects\\MAGD372-FA25\\Assets\\Objects\\Basic Player\\FirstPersonMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Objects\\Basic Player\\FirstPersonMovement.cs",
-              "ToolTip": "C:\\Users\\drews\\OneDrive\\Documents\\Unity Projects\\MAGD372-FA25\\Assets\\Objects\\Basic Player\\FirstPersonMovement.cs",
-              "RelativeToolTip": "Assets\\Objects\\Basic Player\\FirstPersonMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAFAAAAAAAAAA==",
+              "Title": "ChangeSizeOnEvent.cs",
+              "DocumentMoniker": "C:\\Users\\drews\\OneDrive\\Documents\\Unity Projects\\MAGD372-FA25\\Assets\\Objects\\Event Test\\ChangeSizeOnEvent.cs",
+              "RelativeDocumentMoniker": "Assets\\Objects\\Event Test\\ChangeSizeOnEvent.cs",
+              "ToolTip": "C:\\Users\\drews\\OneDrive\\Documents\\Unity Projects\\MAGD372-FA25\\Assets\\Objects\\Event Test\\ChangeSizeOnEvent.cs",
+              "RelativeToolTip": "Assets\\Objects\\Event Test\\ChangeSizeOnEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T19:50:41.526Z",
+              "WhenOpened": "2025-10-07T19:45:23.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FirstPersonCamera.cs",
-              "DocumentMoniker": "C:\\Users\\drews\\OneDrive\\Documents\\Unity Projects\\MAGD372-FA25\\Assets\\Objects\\Basic Player\\FirstPersonCamera.cs",
-              "RelativeDocumentMoniker": "Assets\\Objects\\Basic Player\\FirstPersonCamera.cs",
-              "ToolTip": "C:\\Users\\drews\\OneDrive\\Documents\\Unity Projects\\MAGD372-FA25\\Assets\\Objects\\Basic Player\\FirstPersonCamera.cs",
-              "RelativeToolTip": "Assets\\Objects\\Basic Player\\FirstPersonCamera.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA6AAAAAAAAAA==",
+              "Title": "TeleportOnEvent.cs",
+              "DocumentMoniker": "C:\\Users\\drews\\OneDrive\\Documents\\Unity Projects\\MAGD372-FA25\\Assets\\Objects\\Event Test\\TeleportOnEvent.cs",
+              "RelativeDocumentMoniker": "Assets\\Objects\\Event Test\\TeleportOnEvent.cs",
+              "ToolTip": "C:\\Users\\drews\\OneDrive\\Documents\\Unity Projects\\MAGD372-FA25\\Assets\\Objects\\Event Test\\TeleportOnEvent.cs",
+              "RelativeToolTip": "Assets\\Objects\\Event Test\\TeleportOnEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T19:36:40.037Z",
+              "WhenOpened": "2025-10-07T19:42:33.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventManager.cs",
+              "DocumentMoniker": "C:\\Users\\drews\\OneDrive\\Documents\\Unity Projects\\MAGD372-FA25\\Assets\\Objects\\Event Test\\EventManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Objects\\Event Test\\EventManager.cs",
+              "ToolTip": "C:\\Users\\drews\\OneDrive\\Documents\\Unity Projects\\MAGD372-FA25\\Assets\\Objects\\Event Test\\EventManager.cs",
+              "RelativeToolTip": "Assets\\Objects\\Event Test\\EventManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T19:42:33.498Z",
               "EditorCaption": ""
             }
           ]
