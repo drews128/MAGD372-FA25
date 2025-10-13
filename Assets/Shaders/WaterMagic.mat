@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Glow_Mat
+  m_Name: WaterMagic
   m_Shader: {fileID: -6465566751694194690, guid: 084515a56e0fad745b922e4922bcc021, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
